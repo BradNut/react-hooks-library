@@ -6,6 +6,9 @@ import Inc from './components/Inc';
 import Mount from './components/Mount';
 import Hover from './components/Hover';
 import Cookie from "./components/Cookie";
+import Script from './components/Script';
+import Local from './components/Local';
+import Theme from './components/Theme';
 import { PageWrapper } from "./state";
 import Nav from "./components/Nav";
 import Menu from "./Menu";
@@ -25,10 +28,13 @@ function App() {
         <Nav />
         <Container>
           <h2>Super Cool</h2>
+          <Theme />
+          <Script />
           <Toggle />
           <Inc />
           <Mount />
           <Cookie />
+          <Local />
           <Hover />
 
           <CardGrid>
